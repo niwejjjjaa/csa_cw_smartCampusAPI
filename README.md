@@ -174,18 +174,18 @@ smart-campus-api/
 ├── postman/
 │   └── Smart_Campus_API.json
 └── src/main/java/com/smartcampus/app/
-    ├── SmartCampusApplication.java       ← JAX-RS app entry point (@ApplicationPath)
+    ├── SmartCampusApplication.java       
     ├── api/
-    │   ├── DiscoveryResource.java        ← GET /api/v1
-    │   ├── SensorRoomResource.java       ← /rooms endpoints
-    │   ├── SensorResource.java           ← /sensors endpoints
-    │   └── SensorReadingResource.java    ← /sensors/{id}/readings (sub-resource)
+    │   ├── DiscoveryResource.java        
+    │   ├── SensorRoomResource.java       
+    │   ├── SensorResource.java           
+    │   └── SensorReadingResource.java    
     ├── model/
     │   ├── Room.java
     │   ├── Sensor.java
     │   └── SensorReading.java
     ├── store/
-    │   └── CampusData.java               ← Shared in-memory data store
+    │   └── CampusData.java               
     ├── error/
     │   ├── RoomNotEmptyException.java
     │   ├── RoomNotEmptyExceptionMapper.java
